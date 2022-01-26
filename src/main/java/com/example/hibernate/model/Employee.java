@@ -3,8 +3,8 @@ package com.example.hibernate.model;
 import javax.persistence.*;
 import java.util.Set;
 
-@Entity
-@Table(name = "employee")
+@Entity(name = "Employee")
+@Table(name = "tbl_employee")
 public class Employee {
 
     @Id
